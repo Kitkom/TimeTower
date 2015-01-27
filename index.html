@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Time Tower</title>
+        <meta charset="UTF-8">
+        <script src="js/jquery/jquery.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+		<link href="styles/main.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+		<embed src="./res/music/TTower.mp3" hidden="true" autostart="true" volume="10000" loop="true"> 
+		<embed id="mred" src="./res/music/Red.mp3" hidden="true" autostart="false" loop="false">
+		<embed id="mblue" src="./res/music/Blue.mp3" hidden="true" autostart="false" loop="false">
+		<embed id="reset" src="./res/music/reset.mp3" hidden="true" autostart="false" loop="false">
+		<embed id="dead" src="./res/music/dead.mp3" hidden="true" autostart="false" loop="false">
+		<div id="mainwindow">
+			<div class="screen" id="titlescene">
+				<img id="titleimg" src="./res/images/title.png" />
+				<img id="gameStart" src="./res/images/start.png" />
+			</div>
+			<div class="screen" id="levelscene">
+				<p id="levels">Select Level</p>
+				<div class="level" id="level1">1</div>
+				<div class="level" id="level2">2</div>
+				<div class="level" id="level3">3</div>
+				<div class="level" id="level4">4</div>
+				<div class="level" id="level5">5</div>
+				<div class="level" id="level6">6</div>
+				<div class="level" id="level7">7</div>
+			</div>
+			<div class="screen" id="gamearea">
+				<img id="bg" src="./res/images/bg.png" />
+				<img id="reset" src="./res/images/reset.png" />
+				<img id="back" src="./res/images/back.png" />
+				<div class="tile" id="cursor0"><img /></div>
+				<div class="tile" id="cursor1"><img /></div>
+				<div class="tile" id="cursor2"><img /></div>
+				<div class="tile" id="cursor3"><img /></div>
+				<div class="tile" id="cursor4"><img /></div>
+				<div class="tile" id="cursor5"><img /></div>
+				<div class="tile" id="cursor6"><img /></div>
+				<div class="tile" id="cursor7"><img /></div>
+				<div class="tile" id="cursor8"><img /></div>
+				<div class="tile" id="cursor9"><img /></div>
+				<div class="tile" id="block0"><img /></div>
+				<div class="tile" id="block1"><img /></div>
+				<div class="tile" id="block2"><img /></div>
+				<div class="tile" id="block3"><img /></div>
+				<div class="tile" id="block4"><img /></div>
+				<div class="tile" id="block5"><img /></div>
+				<div class="tile" id="block6"><img /></div>
+				<div class="tile" id="block7"><img /></div>
+				<div class="tile" id="block8"><img /></div>
+				<div class="tile" id="block9"><img /></div>
+				<div id="character">
+					<img src="./res/images/character.png" />
+				</div>
+				<div id="buttonLeft">
+					<img class="clock" src="./res/images/clock.png" />
+					<img id="red" class="clock" src="./res/images/red.png" />
+				</div>
+				<div id="buttonRight">
+					<img class="clock" src="./res/images/clock.png" />
+					<img id="blue" class="clock" src="./res/images/blue.png" />
+				</div>
+			</div>
+		</div>
+    </body>
+</html>

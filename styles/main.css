@@ -1,0 +1,180 @@
+#mainwindow
+{
+	height : 450px;
+	width : 800px;
+	position : fixed;
+	top : 50%;
+	left : 50%;
+	margin : -225px 0 0 -400px;
+	border : 1px solid gray;
+	overflow : hidden;
+	background-color : black;
+}
+
+#buttonLeft
+{
+	position : absolute;
+	bottom : 0px;
+	left : 0px;
+	width : 120px;
+	height : 120px;
+}
+
+#buttonRight
+{
+	position : absolute;
+	bottom : 0px;
+	right : 0px;
+	width : 120px;
+	height : 120px;
+}
+
+img.clock
+{
+	position : absolute;
+	width : 120px;
+	height : 120px;
+	transition : 0.5s;
+}
+
+.tile
+{
+	position : absolute;
+	transition : 0.3s;
+	width : 120px;
+	height : 120px;
+}
+
+img#bg
+{
+	position : absolute;
+}
+
+#character
+{
+	bottom : 120px;
+	position : absolute;
+	transition : 0.5s;
+	width : 40px;
+	height : 80px;
+}
+
+.screen
+{
+	position : absolute;
+	width : 800px;
+	color : white;
+	font-size : 50px;
+	height : 450px;
+	background-color : black;
+	transition : 0.3s;
+}
+
+#tilescene
+{
+	top : 0px;
+}
+
+#gamearea
+{
+	top : -450px;
+}
+
+#levelscene
+{
+	top : -450px;
+	left : 25px;
+	background-color : #000;
+}
+
+#titleimg
+{
+	position : absolute;
+	margin : 0 0 0 -200px;
+	left : 50%;
+	top : 50px;
+}
+
+.level
+{
+	width : 38px;
+	height : 50px;
+	position : absolute;
+	border : 1px #FFFFFF solid;
+	border-radius : 3px;
+	padding : 0 0 0 12px;
+}
+#levels
+{
+	position : absolute;
+	margin : 0 0 0 -150px;
+	left : 50%;
+	top : 100px;
+}
+
+#level1
+{
+	left : 200px;
+	top : 200px;
+}
+#level2
+{
+	left : 300px;
+	top : 200px;
+}
+#level3
+{
+	left : 400px;
+	top : 200px;
+}
+#level4
+{
+	left : 500px;
+	top : 200px;
+}
+#level5
+{
+	left : 200px;
+	top : 300px;
+}
+#level6
+{
+	left : 300px;
+	top : 300px;
+}
+#level7
+{
+	left : 400px;
+	top : 300px;
+}
+
+#level8
+{
+	left : 500px;
+	top : 300px;
+}
+
+img#reset
+{
+	position : absolute;
+	right : 0;
+	top : 0;
+	z-index : 10;
+}
+img#back
+{
+	position : absolute;
+	top : 0;
+	left : 0;
+	z-index : 10;
+}
+
+img#gameStart
+{
+	position : absolute;
+	margin : 0 0 0 -40px;
+	top : 300px;
+	left : 50%;
+	width : 80px;
+	height : 40px;
+}
